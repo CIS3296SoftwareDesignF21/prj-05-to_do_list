@@ -15,7 +15,7 @@
 - People who have chaotic days and are looking for a way to organize their days
 
 To_Do_List APP!
-
+## Vision Statment
 - The project is basically going to be for our disorganized friends who needs your help in tracking down their daily tasks. It will allow the user to write, origanize and reprioritize the user's task more efficiently.
 
 # How to Run
