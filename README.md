@@ -29,6 +29,14 @@ To_Do_List APP!
 
 - For student users who face difficulties organizing their tasks, To_Do_List App is a mobile application that allows users to label tasks, customize through color codes, and add due dates to highlight task status with checklists to keep track of the tasks. Unlike Week Plan on App Store, our product will have a simple but eye-catching and aesthetically pleasing UI with a short learning curve that can help the users to access a wide range of modules.
 
+
+## Feature List
+- Sign in with user name and password
+- Add and Remove tasks
+- Grocery List
+- School List
+- Workout LIst
+
 # Contributors
 
 - Abrahim Javed
