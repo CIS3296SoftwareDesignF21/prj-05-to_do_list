@@ -1,10 +1,10 @@
-# The tasks from Trello that we have accomplished during this first week:
+# The tasks from Trello that we have accomplished during the first week:
 
 ## Wenkai:
 - Added basic code
 - Generated .jar file
 - Created first release
-- 
+
 ## Abrahim:
 - Added 4 personas to README
 
