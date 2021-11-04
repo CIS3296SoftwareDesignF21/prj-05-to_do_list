@@ -1,8 +1,12 @@
+
 # Project 
 
 To_Do_List APP!
 
 - The project is basically going to be for our disorganized friends who needs your help in tracking down their daily tasks. It will allow the user to write, origanize and reprioritize the user's task more efficiently.
+
+
+Trello Board: https://trello.com/b/MUcTBQj8/todolist-app
 
 
 # How to Install
@@ -35,7 +39,7 @@ To_Do_List APP!
 - Add and Remove tasks
 - Grocery List
 - School List
-- Workout LIst
+- Workout List
 
 # Contributors
 
@@ -44,3 +48,4 @@ To_Do_List APP!
 - Yara Alzhrani
 - Haein Yu
 - Wenkai Zhai
+
