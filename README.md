@@ -49,4 +49,5 @@ Trello Board: https://trello.com/b/MUcTBQj8/todolist-app
 - Haein Yu
 - Wenkai Zhai
 
-# Week1.md
+## Week1.md
+https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/793aad8a27faae2587ee1e84a72e481b447d410f/Week1.md
