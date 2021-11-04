@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "tdlcode"
 include ':app'
+include ':lib'
