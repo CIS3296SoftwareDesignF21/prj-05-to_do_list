@@ -23,6 +23,12 @@ Trello Board: https://trello.com/b/MUcTBQj8/todolist-app
 - Possible addition: collaborative list-making. Ex Family grocery list where each memeber can add what they want
 
 ## Personas
+
+Persona 2 Dom Arishi 
+
+Alex is 18 years old, he is a first- year student studying Business Administration at Fox School at Temple University main campus. He spends most of his time procrastinating from studying and forgetting running his important errands due to his bad habit of disorganization, So Alex is interested in using a To_Do_List app to help him organize his daily task and errands and make his day more productive.    
+
+
 - High school and higher education students who have many assignments due with varying diffuculty and time required
 - Parents who need to make a chore list for their younger kids that needs to be updated as it goes along
 - Busniess owners who need to delegate tasks to their workers for a singular project or job
