@@ -34,8 +34,13 @@ Alex is 18 years old, he is a first- year student studying Business Administrati
 David, age 16, is a high school student living in Philadelphia. He is a talented swimmer who is on his high school swim team and dreams of attending University of Pennsylvania to study Sports Management. His everyday activities are focused on schoolwork, extracurricular activities, spending time with friends and family. His main goal is to finish high school with good grades and test scores. However, he has difficulties completing assignments in time because of his busy schedule since he has swimming practice everyday and he has to attend competitions every week. So David hoping to use To_Do_List application to manage tasks effectively, use time wisely and improve time management to keep a high GPA and his swimming skills. He has some limited experience with technology, so he hopes this application will be simple enough to enable him to keep track of his schedule.
 
 
-- High school and higher education students who have many assignments due with varying diffuculty and time required
+
 - Parents who need to make a chore list for their younger kids that needs to be updated as it goes along
+- 
+### Linda a mother of two teenagers(Wenkai Zhai)
+
+  - Linkda, 35 years old, is a two teenagers' mother. She is a team leader of a commerical company, leading her subordinates, arraging taskes and checking the process. At the mean time, she also has a big house in New Jersy. Every week, she has to spend at least 3 hours to clean their house, such as kitch, bedrooms, bathrooms and living rooms. It's too long to cleanning and working at the same time. With helping of two kids, she found out that they spent at most 1.5 hours to do such tedious things. According to her experience, she thinks that it's important to get kids working and help her with those. However, she had a hard time to making a plan and make sure that kids will do things when she left. To Do List is a good tool that allow her to set up tasks and remotely check what's going on with kids' cleaning. So, she deicide to use our tool and makes a good plan, on purpose, she remotely supervises the kids' work. Eventually, her two loves have done a excellet job.
+
 - Busniess owners who need to delegate tasks to their workers for a singular project or job
 - People who have chaotic days and are looking for a way to organize their days
 
