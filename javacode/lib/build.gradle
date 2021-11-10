@@ -41,7 +41,7 @@ dependencies {
 task makeJar(type: Copy){
     delete 'build/libs/myjar.jar'
     from('build/intermediates/aar_main_jar/debug/')
-    into('build/intermediates/aar_main_jar/')
+    into('build/intermediates/aar_main_jar/')   
     include('class.jar')
     rename('class.jar','myjar.jar')
 }
