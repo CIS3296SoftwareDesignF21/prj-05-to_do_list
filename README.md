@@ -19,7 +19,7 @@ To_Do_List APP!
 - Possible addition: collaborative list-making. Ex Family grocery list where each memeber can add what they want
 
 ## Personas
-- High school and higher education students who have many assignments due with varying diffuculty and time required
+- High school and higher education students who have many assignments due with varying difficulty and time required
 - Parents who need to make a chore list for their younger kids that needs to be updated as it goes along
 - Busniess owners who need to delegate tasks to their workers for a singular project or job
 - People who have chaotic days and are looking for a way to organize their days
