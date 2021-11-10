@@ -24,9 +24,14 @@ Trello Board: https://trello.com/b/MUcTBQj8/todolist-app
 
 ## Personas
 
-Persona 2 Dom Arishi 
+### Alex a college student studying Business Administration (Dom Arishi) 
 
 Alex is 18 years old, he is a first- year student studying Business Administration at Fox School at Temple University main campus. He spends most of his time procrastinating from studying and forgetting running his important errands due to his bad habit of disorganization, So Alex is interested in using a To_Do_List app to help him organize his daily task and errands and make his day more productive.    
+
+
+### David a high school student (Haein Yu)
+
+David, age 16, is a high school student living in Philadelphia. He is a talented swimmer who is on his high school swim team and dreams of attending University of Pennsylvania to study Sports Management. His everyday activities are focused on schoolwork, extracurricular activities, spending time with friends and family. His main goal is to finish high school with good grades and test scores. However, he has difficulties completing assignments in time because of his busy schedule since he has swimming practice everyday and he has to attend competitions every week. So David hoping to use To_Do_List application to manage tasks effectively, use time wisely and improve time management to keep a high GPA and his swimming skills. He has some limited experience with technology, so he hopes this application will be simple enough to enable him to keep track of his schedule.
 
 
 - High school and higher education students who have many assignments due with varying diffuculty and time required
