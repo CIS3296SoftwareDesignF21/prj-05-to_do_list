@@ -95,6 +95,9 @@ Andrew, age 18 in a family of 5 with two older siblings which are much more orga
 ## Week1.md
 https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/793aad8a27faae2587ee1e84a72e481b447d410f/Week1.md
 
+## Week2.md
+https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/main/Week2.md
+
 
 ## UML
 
