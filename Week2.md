@@ -5,6 +5,7 @@
 - Added persona
 
 ## Abrahim:
+- Created Release
 - Added persona
 
 ## Dom:
