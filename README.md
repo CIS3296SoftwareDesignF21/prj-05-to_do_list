@@ -26,7 +26,7 @@ Trello Board: https://trello.com/b/MUcTBQj8/todolist-app
 
 ### Alex a college student studying Business Administration (Dom Arishi) 
 
-Alex is 18 years old, he is a first- year student studying Business Administration at Fox School at Temple University main campus. He spends most of his time procrastinating from studying and forgetting running his important errands due to his bad habit of disorganization, So Alex is interested in using a To_Do_List app to help him organize his daily task and errands and make his day more productive.    
+Alex is 18 years old, he is a first- year student studying Business Administration at Fox School at Temple University main campus. Alex has tried many times to work as a full time before deciding going to school in Alentown where his parents live, but unfortuanlty he couldn't find something with decent salary so as a result he decided to pursue his bachelor degree. He spends most of his time procrastinating from studying and forgetting running his important errands due to his bad habit of disorganization and as a result of that he missed a lot of assignments and his grade has significantly been decresing. So Alex is interested in using a To_Do_List app to help him get his life back together and hopefully improve his grade and organize his daily task/errands to make his day more productive.    
 
 
 ### David a high school student (Haein Yu)
@@ -65,3 +65,13 @@ Linkda, 35 years old, is a two teenagers' mother. She is a team leader of a comm
 
 ## Week1.md
 https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/793aad8a27faae2587ee1e84a72e481b447d410f/Week1.md
+
+
+## UML
+
+
+![new drawio](https://user-images.githubusercontent.com/55096042/141208277-9ace3f50-af42-4725-93c7-8a63da310764.png)
+
+
+Description: 
+- First we will start off by having the user log in by entering the user name and the password and if they don't have an account they will click on the sign up button, that will take them to a separate sign up page where they fill out their sign up info. After passing successfully the sign in page, they will go to the main page where it has the 4 modules( Grocery list, School list, Workout list, and Collaborative list) to choose from. Then after choosing what list you want to add your task into, you will go to the ToDoList page where you add/remove the task under page.
