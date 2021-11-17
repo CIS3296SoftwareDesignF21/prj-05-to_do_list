@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".Account">
+    tools:context=".MainAct">
 
     <TextView
         android:id="@+id/accountInfo"

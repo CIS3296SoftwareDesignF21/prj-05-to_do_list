@@ -20,13 +20,8 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                ", pscode='" + pscode + '\'' +
-                '}';
+        //{user1,password1,111@gmail.com,111111,123123}
+        return "{"+name+","+password+","+email+","+phone+","+pscode+"}" ;
     }
 
     public String getName() {

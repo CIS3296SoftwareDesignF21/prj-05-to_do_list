@@ -41,7 +41,7 @@ public class Login extends AppCompatActivity {
                 if(checkUser(name,password)){
                     //display banner to welcome the user
                     Toast.makeText(Login.this,"Welcome Home",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(Login.this,Account.class);
+                    Intent intent = new Intent(Login.this, MainAct.class);
                     startActivity(intent);
                 }else{
                     //stay and requires to try again.
@@ -56,7 +56,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //show registration frame
-                Intent intent = new Intent(Login.this,MainActivity.class);
+                Intent intent = new Intent(Login.this, SignUp.class);
                 startActivity(intent);
             }
         });
@@ -87,9 +87,9 @@ public class Login extends AppCompatActivity {
             String content = reader.readLine();
             while (!"".equals(content) && content != null){
                 //parse user information
-                User exisUser = parseUser(content);
+                User existUser = parseUser(content);
                 //store the user into userMap
-                usersMap.put(exisUser.getName(),exisUser);
+                usersMap.put(existUser.getName(),existUser);
                 //loop next user
                 content = reader.readLine();
             }
