@@ -9,10 +9,17 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+
+import domain.User;
 
 
 public class Login extends AppCompatActivity {
 
+    private HashMap<String,User> usersMap = new HashMap<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,12 +35,16 @@ public class Login extends AppCompatActivity {
                 TextView passwordtx = (TextView)findViewById(R.id.upassword);
                 String name = nametx.getText().toString();
                 String password = passwordtx.getText().toString();
-                //check if there is an existing user, then allow him to log in
-                if("testname".equals(name) && "testpassword".equals(password)){
+                //load user's information
+                loadMap();
+                //check user's exist status
+                if(checkUser(name,password)){
+                    //display banner to welcome the user
                     Toast.makeText(Login.this,"Welcome Home",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(Login.this,Account.class);
                     startActivity(intent);
                 }else{
+                    //stay and requires to try again.
                     Toast.makeText(Login.this,"Incorrect name or password",Toast.LENGTH_SHORT).show();
                 }
             }
@@ -44,8 +55,6 @@ public class Login extends AppCompatActivity {
         regBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-
-
                 //show registration frame
                 Intent intent = new Intent(Login.this,MainActivity.class);
                 startActivity(intent);
@@ -54,5 +63,48 @@ public class Login extends AppCompatActivity {
     }
 
     //function to check User information by getting string value from TextView
-
+    //true exist, false not
+    private boolean checkUser(String name, String password){
+        //get existing user from loaded map
+        User user = usersMap.get(name);
+        //go to check password
+        if(user!=null){
+            if(user.getPassword().equals(password)){
+                //find an existed user
+                return true;
+            }
+        }
+        //no such user
+        return false;
+    }
+    private void loadMap(){
+        InputStream input = null;
+        BufferedReader reader = null;
+        try{
+            //get file from users.txt
+            input = getResources().openRawResource(R.raw.users);
+            reader = new BufferedReader(new InputStreamReader(input));
+            String content = reader.readLine();
+            while (!"".equals(content) && content != null){
+                //parse user information
+                User exisUser = parseUser(content);
+                //store the user into userMap
+                usersMap.put(exisUser.getName(),exisUser);
+                //loop next user
+                content = reader.readLine();
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+    private User parseUser(String userInfo){
+        //parse userInfo
+        //{user1,password1,111@gmail.com,111111,123123}
+        //remove first and last
+        userInfo = userInfo.substring(1,userInfo.length()-1);
+        //user1,password1,111@gmail.com,111111,123123
+        String[] infoList = userInfo.split(",");
+        User user = new User(infoList[0],infoList[1],infoList[2],infoList[3],infoList[4]);
+        return user;
+    }
 }
