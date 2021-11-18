@@ -110,4 +110,9 @@ Description:
 
 ## Week 3.md
 
+### Logging into Account:
 ![To_Do_List Sequence UML 1](https://user-images.githubusercontent.com/78056542/142352090-c7dd699a-dea0-480b-a2b5-0f2e541f3f25.jpg)
+
+### Creating an Account:
+![To_Do_List Sequence UML 2](https://user-images.githubusercontent.com/78056542/142455015-9a1b64ea-fcc1-4e9b-98cd-7919a1249f91.jpg)
+
