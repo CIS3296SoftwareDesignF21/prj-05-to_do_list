@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //addItem(view);
+                addItem(v);
             }
         });
 
@@ -74,8 +74,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void addItem(View view){
+        EditText input= findViewById(R.id.editTextPhone);
+        String itemText = input.getText().toString();
 
-
+        if(!(itemText.equals(""))){
+            itemsAdapter.add(itemText);
+            input.setText("");
+        }else{
+            Toast.makeText(getApplicationContext(), "Enter text>>", Toast.LENGTH_SHORT).show();
+        }
     }
 }
 // testing
