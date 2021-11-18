@@ -11,15 +11,15 @@
     <TextView
         android:id="@+id/accountInfo"
         android:layout_width="match_parent"
-        android:layout_height="61dp"
+        android:layout_height="8dp"
         android:layout_weight="1"
         android:text="Welcome"
         android:textAlignment="center" />
 
     <Button
         android:id="@+id/groceryList"
-        android:layout_width="106dp"
-        android:layout_height="18dp"
+        android:layout_width="117dp"
+        android:layout_height="97dp"
         android:layout_weight="1"
         android:text="Grocery List" />
 

@@ -6,10 +6,14 @@
         <entry key="..\:/Users/Kevin/Desktop/2021FALL/SFdesign/playstation/prj-05-to_do_list/javacode/app/src/main/res/layout/activity_account.xml" value="0.2015625" />
         <entry key="..\:/Users/Kevin/Desktop/2021FALL/SFdesign/playstation/prj-05-to_do_list/javacode/app/src/main/res/layout/activity_login.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/Kevin/Desktop/2021FALL/SFdesign/playstation/prj-05-to_do_list/javacode/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="app/src/main/res/layout/activity_account.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/to_do_list.xml" value="0.165" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="16" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
