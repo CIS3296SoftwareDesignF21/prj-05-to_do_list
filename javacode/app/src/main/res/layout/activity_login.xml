@@ -21,7 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="60dp"
-        android:hint="User Name" />
+        android:hint="User Name"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/upassword"
@@ -29,7 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="60dp"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/loginBtn"
