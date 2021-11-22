@@ -50,7 +50,8 @@ public class SignUp extends AppCompatActivity {
                 TextView codeView = (TextView) findViewById(R.id.code);
                 String code = codeView.getText().toString();
                 //check if the user name had been registered
-                if(usersMap.get(name) == null){
+                String errorMsg = "";
+                if(usersMap.get(name) == null && "".equals(usersMap.get(name))){
                     //no such user
                     //store the new user
                     User newUser = new User(name,password,address,phone,code);
@@ -59,12 +60,15 @@ public class SignUp extends AppCompatActivity {
                     //go to welcome page
                     Intent intent = new Intent(SignUp.this, MainAct.class);
                     startActivity(intent);
-                }else{
+                }else if(usersMap.get(name) != null){
                     //ask user to make another name
-                    Toast.makeText(SignUp.this,"User had been registered",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(SignUp.this, SignUp.class);
-                    startActivity(intent);
+                    errorMsg = "User had been registered";
+                    //Intent intent = new Intent(SignUp.this, SignUp.class);
+                    //startActivity(intent);
+                }else{
+                    errorMsg = "User name and password can not be empty";
                 }
+                Toast.makeText(SignUp.this,errorMsg,Toast.LENGTH_SHORT).show();
             }
         });
     }
