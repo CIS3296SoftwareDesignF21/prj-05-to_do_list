@@ -8,35 +8,32 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
-
 import domain.User;
 
 
 public class Login extends AppCompatActivity {
-
-    private HashMap<String,User> usersMap = new HashMap<>();
+    //private static LoadMap loadMap = LoadMap.getLoadMap();
+    private static HashMap<String,User> usersMap = new HashMap<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         //let user to log in.
         Button loginBtn = (Button)findViewById(R.id.loginBtn);
         loginBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+                loadMap();
                 //get user's name and password
                 TextView nametx = (TextView)findViewById(R.id.uname);
                 TextView passwordtx = (TextView)findViewById(R.id.upassword);
                 String name = nametx.getText().toString();
                 String password = passwordtx.getText().toString();
                 //load user's information
-                loadMap();
                 //check user's exist status
                 if(checkUser(name,password)){
                     //display banner to welcome the user
@@ -49,7 +46,6 @@ public class Login extends AppCompatActivity {
                 }
             }
         });
-
         //let user to register
         Button regBtn = (Button)findViewById(R.id.regBtn);
         regBtn.setOnClickListener(new View.OnClickListener(){
@@ -67,6 +63,7 @@ public class Login extends AppCompatActivity {
     private boolean checkUser(String name, String password){
         //get existing user from loaded map
         User user = usersMap.get(name);
+        System.out.println(user);
         //go to check password
         if(user!=null){
             if(user.getPassword().equals(password)){
@@ -77,12 +74,14 @@ public class Login extends AppCompatActivity {
         //no such user
         return false;
     }
+
     private void loadMap(){
         InputStream input = null;
         BufferedReader reader = null;
         try{
             //get file from users.txt
-            input = getResources().openRawResource(R.raw.users);
+            //input = getResources().openRawResource(R.raw.users);
+            input = openFileInput("users.txt");
             reader = new BufferedReader(new InputStreamReader(input));
             String content = reader.readLine();
             while (!"".equals(content) && content != null){
