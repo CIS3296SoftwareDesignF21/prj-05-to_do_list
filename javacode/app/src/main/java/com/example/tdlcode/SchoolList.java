@@ -8,6 +8,6 @@ public class SchoolList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.school_list);
+        setContentView(R.layout.activity_school_list);
     }
 }
