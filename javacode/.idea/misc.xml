@@ -10,7 +10,10 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.22870370370370371" />
         <entry key="app/src/main/res/layout/activity_account.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.10283687943262411" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main_menu.xml" value="0.16485507246376813" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.18297101449275363" />
+        <entry key="app/src/main/res/layout/school_list.xml" value="0.18297101449275363" />
       </map>
     </option>
   </component>
