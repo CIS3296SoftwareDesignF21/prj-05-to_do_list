@@ -20,7 +20,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="80dp"
         android:layout_toStartOf="@+id/schoolList"
-        android:text="Grocery List"
+        android:background="@drawable/grocery_list_logo"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
@@ -32,7 +32,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="80dp"
         android:layout_weight="1"
-        android:text="School List"
+        android:background="@drawable/school_list_logo"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
@@ -43,10 +43,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="280dp"
+        android:layout_marginBottom="200dp"
         android:layout_toStartOf="@+id/collaList"
         android:layout_weight="1"
-        android:text="Workout List"
+        android:background="@drawable/workout_list_logo"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
@@ -56,9 +56,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="280dp"
+        android:layout_marginBottom="200dp"
         android:layout_weight="1"
-        android:text="Collaborative List"
+        android:background="@drawable/collab_list_logo"
         tools:ignore="SpeakableTextPresentCheck" />
 
 </RelativeLayout>
