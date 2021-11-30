@@ -24,7 +24,7 @@ public class SignUp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_main_menu);
         Button registerBtn = (Button)findViewById(R.id.rigbtn);
         registerBtn.setOnClickListener(new View.OnClickListener(){
             @Override

@@ -2,6 +2,7 @@ package com.example.tdlcode;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,8 +10,11 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.io.BufferedReader;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import domain.User;
 
@@ -38,6 +42,7 @@ public class Login extends AppCompatActivity {
                 if(checkUser(name,password)){
                     //display banner to welcome the user
                     Toast.makeText(Login.this,"Welcome Home",Toast.LENGTH_SHORT).show();
+                    Helper.PutData(Login.this,"username",name);
                     Intent intent = new Intent(Login.this, MainAct.class);
                     startActivity(intent);
                 }else{
@@ -105,5 +110,30 @@ public class Login extends AppCompatActivity {
         String[] infoList = userInfo.split(",");
         User user = new User(infoList[0],infoList[1],infoList[2],infoList[3],infoList[4]);
         return user;
+    }
+
+
+    private void storeUser(){
+        //make users.txt
+        //get users information from usersMap
+        FileOutputStream out = null;
+        try {
+            out = openFileOutput("data.txt", Context.MODE_PRIVATE);
+
+            out.write("ali khan".toString().getBytes(StandardCharsets.UTF_8));
+            out.write("\n".getBytes(StandardCharsets.UTF_8));
+
+            out.flush();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            try {
+                if(out!= null) {
+                    out.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
