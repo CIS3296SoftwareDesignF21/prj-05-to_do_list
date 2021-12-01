@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@drawable/main_menu"
     android:orientation="vertical"
     tools:context=".MainAct">
 
@@ -33,40 +33,23 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/btn_grocery"
             android:layout_width="150dp"
-            android:layout_height="150dp"
 
+            android:layout_height="150dp"
             android:layout_above="@+id/workoutList"
             android:layout_alignParentStart="true"
             android:layout_margin="10dp"
-            app:cardBackgroundColor="@color/purple_500"
             android:layout_toStartOf="@+id/schoolList"
+            android:background="@drawable/grocery_list_logo"
+            android:foreground="@drawable/grocery_list_logo"
+            android:text="Grocery List"
             app:cardCornerRadius="15dp"
             app:cardElevation="7dp"
-            android:text="Grocery List"
-            android:id="@+id/btn_grocery"
-            tools:ignore="SpeakableTextPresentCheck" >
-
-
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="17dp"
-                android:gravity="center"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="@color/white"
-                android:layout_toStartOf="@+id/schoolList"
-                android:text="Grocery List"
-
-                />
+            tools:ignore="SpeakableTextPresentCheck">
 
 
         </androidx.cardview.widget.CardView>
-
-
 
 
         <androidx.cardview.widget.CardView
@@ -75,36 +58,14 @@
             android:layout_height="150dp"
             android:layout_above="@+id/collaList"
             android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
+            android:foreground="@drawable/school_list_logo"
             android:text="School List"
-            android:layout_margin="10dp"
             app:cardCornerRadius="15dp"
-            app:cardBackgroundColor="@color/purple_500"
             app:cardElevation="7dp"
-            tools:ignore="SpeakableTextPresentCheck" >
-
-
-            <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="17dp"
-                android:gravity="center"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="@color/white"
-                android:layout_above="@+id/workoutList"
-                android:layout_alignParentStart="true"
-
-
-
-                android:layout_toStartOf="@+id/schoolList"
-                android:text="School List"
-                tools:ignore="SpeakableTextPresentCheck"
-                />
-
+            tools:ignore="SpeakableTextPresentCheck">
 
 
         </androidx.cardview.widget.CardView>
@@ -121,80 +82,39 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/btn_workout"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_above="@+id/workoutList"
             android:layout_alignParentStart="true"
-            android:layout_margin="10dp"
 
+            android:layout_margin="10dp"
             android:layout_toStartOf="@+id/schoolList"
+            android:foreground="@drawable/workout_list_logo"
+            android:text="Grocery List"
             app:cardCornerRadius="15dp"
             app:cardElevation="7dp"
-            android:text="Grocery List"
-            app:cardBackgroundColor="@color/purple_500"
-            tools:ignore="SpeakableTextPresentCheck"
-            android:id="@+id/btn_workout">
-
-
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="17dp"
-                android:gravity="center"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="@color/white"
-                android:layout_toStartOf="@+id/schoolList"
-                android:text="Workout List"
-
-                />
+            tools:ignore="SpeakableTextPresentCheck">
 
 
         </androidx.cardview.widget.CardView>
 
 
-
-
         <androidx.cardview.widget.CardView
 
+            android:id="@+id/btn_collab"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_above="@+id/collaList"
             android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
+            android:foreground="@drawable/collab_list_logo"
             android:text="School List"
-            android:layout_margin="10dp"
             app:cardCornerRadius="15dp"
-            app:cardBackgroundColor="@color/purple_500"
             app:cardElevation="7dp"
-            android:id="@+id/btn_collab"
-            tools:ignore="SpeakableTextPresentCheck" >
-
-
-            <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="17dp"
-                android:gravity="center"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="@color/white"
-                android:layout_above="@+id/workoutList"
-                android:layout_alignParentStart="true"
-
-
-
-                android:layout_toStartOf="@+id/schoolList"
-                android:text="Collabrative List"
-                tools:ignore="SpeakableTextPresentCheck"
-                />
-
-
+            tools:ignore="SpeakableTextPresentCheck">
 
         </androidx.cardview.widget.CardView>
 
