@@ -9,12 +9,10 @@
     tools:context=".MainAct">
 
 
-
-
     <ImageView
 
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="147dp"
+        android:layout_height="135dp"
         android:layout_gravity="left"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
