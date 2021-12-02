@@ -12,7 +12,7 @@ https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/bb64056c3ce5e
 ## Vision Statement
 https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/bb64056c3ce5e1be9415019563b433dc09ece79c/Vision%20Statement.md
 
-## Contributors
+## Group Members
 https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/bb64056c3ce5e1be9415019563b433dc09ece79c/Contributors.md
 
 ## Weekly Contributions
