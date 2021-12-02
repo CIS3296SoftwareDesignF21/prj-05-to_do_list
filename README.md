@@ -16,7 +16,12 @@ https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/bb64056c3ce5e
 https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/bb64056c3ce5e1be9415019563b433dc09ece79c/Contributors.md
 
 ## Weekly Contributions
-https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/7fd788f0a16db6cf31ca6c4cab6ba4f30d1e0c45/Week%23.md
+### Week1.md
+https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/793aad8a27faae2587ee1e84a72e481b447d410f/Week1.md
+### Week2. md
+https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/main/Week2.md
+### Week3.md
+https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/main/Week3.md
 
 ## Personas
 https://github.com/CIS3296SoftwareDesignF21/prj-05-to_do_list/blob/efd577d6f209a407307a05323b554fe58d718564/Personas.md
