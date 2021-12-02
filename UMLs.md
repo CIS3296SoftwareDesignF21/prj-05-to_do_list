@@ -1,8 +1,7 @@
 ## UML
 
-
-![new drawio](https://user-images.githubusercontent.com/55096042/142472733-0aa122f0-b102-42bf-8a56-b54450713779.png)
-
+### Final UML Diagram:
+![Final UML](https://user-images.githubusercontent.com/78056542/144477237-fc7aa03e-8817-4263-88a1-27bdeb5f6880.jpg)
 
 
 
@@ -17,5 +16,3 @@ Description:
 ### Creating an Account:
 ![To_Do_List Sequence UML 2](https://user-images.githubusercontent.com/78056542/142455015-9a1b64ea-fcc1-4e9b-98cd-7919a1249f91.jpg)
 
-### Final UML Diagram:
-![Final UML](https://user-images.githubusercontent.com/78056542/144477237-fc7aa03e-8817-4263-88a1-27bdeb5f6880.jpg)
