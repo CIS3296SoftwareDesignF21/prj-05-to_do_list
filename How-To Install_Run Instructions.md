@@ -1,6 +1,8 @@
 # How to Install
 
-- Android Stdio is what we are going to use as our IDE and it's going to be done in Java Programming since everyone is familiar with the language.
+- First download Android Stdio.
+- Second download the code from Github into your desktop and try to open in Android Studio by clicking on open an existing project.
+- Thrid after opening the project successfully you should be able to see the code and all the technical parts. 
 
 # How to Run
 
