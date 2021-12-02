@@ -5,6 +5,7 @@
 
 ## Abrahim:
 - Modified the UML, added the correct classes names, and added it to README
+- Made README more formal and tidy to simplicity
 
 ## Dom:
 - Worked on the list functionality adding/removing items
